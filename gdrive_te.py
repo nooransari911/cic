@@ -27,8 +27,8 @@ def get_secret():
 
 def download_filest():
     # Fetch and load credentials
-    # secret_json = get_secret()
-    secret_json = os.getenv ("GOOGLE_APPLICATION_CREDENTIALS")
+    secret_json = get_secret()
+    # secret_json = os.getenv ("GOOGLE_APPLICATION_CREDENTIALS")
 
     
     creds = service_account.Credentials.from_service_account_info(
