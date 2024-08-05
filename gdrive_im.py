@@ -6,8 +6,9 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 from google.cloud import secretmanager
+from main import ROOT
 
-ROOT="/opt/render/project/src/projects/compile image/"
+# ROOT="/opt/render/project/src/projects/compile image/"
 
 # Configuration
 SECRET_ID = 'projects/927511831564/secrets/wire_service_account_json/versions/latest'
