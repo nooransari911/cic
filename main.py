@@ -14,8 +14,8 @@ ROOT = "/tmp/"
 
 
 inits = [
-    "mkdir -p {ROOT}",
-    "cd {ROOT}",
+    f"mkdir -p {ROOT}",
+    f"cd {ROOT}",
     "mkdir -p ./static",
     "mkdir -p ./static/image",
     "mkdir -p ./templates"
